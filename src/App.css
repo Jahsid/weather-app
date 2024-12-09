@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  background-color: #ebeaeb;
+}
+
+.app {
+  margin: 40px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.date {
+  color: #888;
+}
+
+/* Content Layout */
+.content {
+  display: flex;
+}
+
+.main-content {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+/* Weather Section */
+.main-weather {
+  text-align: center;
+}
+
+.temperature {
+  font-size: 10rem;
+  font-weight: bold;
+  color: #6d6c6d;
+}
+
+.weather-type {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.weather-details {
+  gap: 20px;
+  color: #888;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Weekly Forecast */
+.weekly-forecast {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+
+.day {
+  text-align: center;
+  border: 1px solid #888;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.day-name {
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 1.2rem;
+}
+
+.weather {
+  color: #888;
+}
+
+/* Sidebar Styles */
+.greeting {
+  font-size: 1.2rem;
+}
+
+.time {
+  margin: 5px 0;
+}
+
+/* Hourly Forecast */
+.hourly-forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.hour {
+  width: 80px;
+  border-radius: 10px;
+  border: 1px solid #888;
+  padding: 10px;
+  text-align: center;
+}
+
+.temperature-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sidebar-icon p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.icon {
+  font-size: .7rem;
+}
